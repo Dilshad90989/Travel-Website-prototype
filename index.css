@@ -906,8 +906,9 @@ img:hover {
     width: 80px;
     height: 80px;
     bottom: -1px;
-    left: 10px;
+    left: 17px;
     position: relative;
+
   }
 
   nav ul {
@@ -1113,19 +1114,45 @@ img:hover {
   .slider-arrow {
     display: none;
   }
-  .footer-links {
+  .footer-links  {
     width: 100%;
-    text-align: center;
+
   }
   .footer-links ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+
   }
   .footer-links ul li {
     margin: 5px 0;
   }
   .footer-contact {
     text-align: center;
+  }
+  .scroll-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .footer-contact p {
+    text-align: left;
+  }
+  .footer-contact h3 {
+    text-align: left;  
+  }
+  nav ul li {
+    margin: 2px 5px;
+  }
+  nav ul{
+    flex-direction: column;
+    align-items: center;
+  }
+.icons{
+    position: relative;
+    top: 20px;
+    right: -8px;
+    margin-bottom: 4%;
   }
 }
